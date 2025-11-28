@@ -6,6 +6,7 @@ const error404 = document.querySelector('.not-found')
 
 serach.addEventListener('click',() =>{
   //the api key and the input from the user
+  //add the api key inorder ofr this to work
   const APIKey ='';
   const city = document.querySelector('.search-box input').value;
 
@@ -72,4 +73,5 @@ serach.addEventListener('click',() =>{
 
 
 });
+
 
